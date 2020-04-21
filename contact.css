@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	background: url('/images/contact.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	background-attachment: fixed;
+}
+
+.tm_header{
+	background-color:  /*#17f0ff #fae902*/white;
+	opacity: 0.85;
+}
+
+.tm_header::after{
+	content: " ";
+	clear: both;
+	display: block;
+
+}
+
+.tm_logo{
+	max-width: 100%;
+	margin: auto;
+	float: left;
+}
+
+.tm_nav{
+	float: right;
+}
+
+.tm_nav ul li{
+	display: inline-block;
+	
+}
+
+.tm_nav ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color : /*#ff000d*/black;
+	font-size: 200%;
+	font-weight: bold;
+	display: block;
+	font-family: cursive;
+	
+}
+
+.tm_nav ul li a:hover{
+	background-color:#acb0ad;
+	
+}
+
+.tm_nav ul li a:active{
+	color:yellow; 
+}
+
+.tm-footer{
+	text-align: center;
+	background-color:  #969696;
+	opacity: 0.8;
+	height: 20px;
+	padding-top: 13px;
+	position: relative;
+	margin-top: auto;
+	clear: both;
+}
+
+
+@media screen and (max-width: 1000px){
+	#container{
+		width: 100%;
+	}
+	#left-column{
+		width: 30%
+	}
+	#right-column{
+		width:70%;
+	}
+}

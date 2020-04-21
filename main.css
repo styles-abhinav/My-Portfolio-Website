@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	background: url('images/c.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	background-attachment: fixed;
+}
+.tm_header{
+	background-color:  #17f0ff;
+	opacity: 0.85;
+}
+
+.tm_header::after{
+	content: " ";
+	clear: both;
+	display: block;
+
+}
+/*for logo to flip when we hover over it*/
+.tm_logo img:hover {
+	transform: scaleX(-1);
+}
+
+.tm_logo{
+	max-width: 100%;
+	margin: auto;
+	float: left;
+	
+
+}
+
+.tm_nav{
+	float: right;
+}
+
+.tm_nav ul li{
+	display: inline-block;
+	
+}
+
+.tm_nav ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color : #ff000d;
+	font-size: 200%;
+	font-weight: bold;
+	display: block;
+	font-family: cursive;
+	
+}
+
+.tm_nav ul li a:hover{
+	background-color:white;
+	
+}
+
+.tm_nav ul li a:active{
+	color:yellow; 
+}
+
+.abhinav {
+	float: right;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	display: block;
+	border: 1px solid #ddd;
+	padding: 7px;
+	margin-right: 10%;
+	margin-top: -12%;
+	margin-bottom: 3%;
+}
+
+.tm-article{
+	display: block;
+	
+}
+.p{
+	display: block;
+	font-family: 'Merienda', cursive;
+	float: left;
+	font-size: 50px;
+	margin-left: 10%;
+	margin-top: 9.4%;
+
+	color:#050505;
+}
+h1{
+	display: block;
+	font-family: 'Merienda', cursive;
+	float: left;
+	margin-left: 10%;
+	font-size: 30px;
+	color:#f00e30;
+	background-color:#17f0ff ;
+	opacity: 0.8;
+}
+
+/*making the site responsive*/
+@media screen and (max-width: 1000px){
+	#container{
+		width: 100%;
+	}
+	#left-column{
+		width: 30%
+	}
+	#right-column{
+		width:70%;
+	}
+}
+.tm-footer{
+	text-align: center;
+	background-color: #17f0ff ;
+	opacity: 0.8;
+	height: 30px;
+	padding-top: 13px;
+	position: relative;
+	margin-top: auto;
+	clear: both;
+}
+
+
