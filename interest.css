@@ -8,7 +8,7 @@ html{
 	width: 100%;
 }
 body{
-	background: url('/images/pic5.jpg');
+	background: url('images/pic5.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	
